@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'GRAPHICO-BOLD' ;
+    src: url('GRAPHICO-BOLD.OTF') format('opentype');
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -14,7 +19,7 @@ header {
 
 body {
     margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'GRAPHICO-BOLD', sans-serif;
     background-color: #FFB500;
 
 }
@@ -58,10 +63,8 @@ main {
 
 .x {
     display: inline-block;
-    font-size: 20px;
-    padding: 0px;
-    margin: 0px;
-    font-weight: 700;
+    font-size: 35px;
+    font-weight: 1000; 
 }
 
 
@@ -85,7 +88,6 @@ main > .placar {
 
 footer {
     text-align: center;
-    padding: 5px;
-    padding-top: 15px;
+    padding: 20px;
     font-size: 18px;
 }
